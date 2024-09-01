@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-color: var(--back);
+}
+header{
+    height: 100px;
+}
+:root {
+    --main:rgb(85, 85, 251);
+    --heading: rgb(255, 255, 255);
+    --para :rgb(105, 105, 105);
+    --heaging-1 :black;
+    --back :rgb(206, 255, 255);
+}
+.contant {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contant-a {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contant-b {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section {
+    text-align: center;
+
+}
+h1, h2 {
+    color: rgb(255, 255, 255);
+
+}
+h3 {
+    color: var(--heaging-1);
+    font-size: 2rem;
+    margin: 1rem;
+    font-family: cursive;
+}
+p {
+    color: var(--heading);
+}
+li {
+    list-style: none;
+    color: var(--heading);
+    line-height: 1.8rem;
+ 
+}
+.box {
+    background-color: var(--para);
+    width: 180px;
+    padding: 1.5rem ;
+    margin: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.box:hover {
+    cursor: pointer;
+    background-color: rgb(13, 2, 53);
+    border: 2px rgb(0, 0, 0) solid;
+    transition: 0.4s;
+
+   
+}
+.top {
+    background-color: var(--main);
+    padding: 2rem;
+    margin: 2rem 0rem;
+}
+img {
+    width: 100px;
+}
+header {
+    width: 100%;
+    background-color: var(--main);
+    text-align: center;
+    padding: 2rem;
+}
+header > h1 {
+    font-size: 3rem;
+}
+main {
+    background-color: var(--back);
+    padding-top: 2rem;
+}
+.left {
+    padding: 0rem 3rem;
+}
+.right {
+    padding: 0rem 3rem;
+}
+label {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: cursive;
+}
+input {
+    width: 300px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+}
+button {
+    width: 300px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+    color: var(--heading);
+    background-color: var(--main);
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(2, 2, 66);
+    color: white;
+    transition: 0.4s;
+}
+form > p {
+    color: var(--para);
+    font-size: 2rem;
+}
+.btn {
+    width: 300px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+    color: var(--heading);
+    background-color: var(--para);
+    border: none;
+}
+.btn:hover{
+background-color: black;
+transition: 0.4s;
+}
+@media (max-width:515px) {
+    header {
+        width: 100vw;
+        height: 180px;
+    }
+    .top {
+        text-align: center;
+        margin: 1rem 0rem;
+    }
+    .img {
+        width: 150px;
+        margin: 2rem;
+        margin-left: 4rem;
+    }
+    h3 {
+        margin: 2rem;
+    }
+    .box {
+        width: 300px;
+        height: 300px;
+    }
+    li {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-left: 3rem;
+        
+        
+    }
+    .right {
+        margin: 1rem;
+        padding: 0.1rem;
+    }
+    .top {
+        margin: 1rem;
+     
+    }
+    .list{
+        margin-right: 6rem;
+    }
+}
