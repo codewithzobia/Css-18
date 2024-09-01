@@ -182,4 +182,13 @@ transition: 0.4s;
     .list{
         margin-right: 6rem;
     }
+        .un{
+        margin-right: 1rem;
+    }
+    .ub{
+       margin-left: 3rem;
+    }
+    .kara{
+        margin-right: -3rem;
+    }
 }
